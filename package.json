@@ -1,0 +1,25 @@
+{
+  "name": "react-using-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketpaul1592/react-using-nextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniketpaul1592/react-using-nextjs/issues"
+  },
+  "homepage": "https://github.com/aniketpaul1592/react-using-nextjs#readme",
+  "dependencies": {
+    "next": "^2.4.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
