@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aniketpaul1592/react-using-nextjs#readme",
   "dependencies": {
     "express": "^4.15.4",
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^2.4.9",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
