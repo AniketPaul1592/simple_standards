@@ -16,29 +16,32 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = "C:\\Users\\lenovo\\Documents\\GitHub\\react-using-nextjs\\components\\Header.js";
 
+
+var headerDiff = {
+	marginRight: 15
+};
+
 exports.default = function () {
 	return _react2.default.createElement("div", {
 		__source: {
 			fileName: _jsxFileName,
-			lineNumber: 4
+			lineNumber: 8
 		}
 	}, _react2.default.createElement(_link2.default, { href: "/", __source: {
 			fileName: _jsxFileName,
-			lineNumber: 5
+			lineNumber: 9
 		}
-	}, _react2.default.createElement("a", {
-		__source: {
+	}, _react2.default.createElement("a", { style: headerDiff, __source: {
 			fileName: _jsxFileName,
-			lineNumber: 6
+			lineNumber: 10
 		}
 	}, "Home")), _react2.default.createElement(_link2.default, { href: "/about", __source: {
 			fileName: _jsxFileName,
-			lineNumber: 8
+			lineNumber: 12
 		}
-	}, _react2.default.createElement("a", {
-		__source: {
+	}, _react2.default.createElement("a", { style: headerDiff, __source: {
 			fileName: _jsxFileName,
-			lineNumber: 9
+			lineNumber: 13
 		}
 	}, "About")));
 };

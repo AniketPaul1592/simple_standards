@@ -14,23 +14,24 @@ var _Header2 = _interopRequireDefault(_Header);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = 'C:\\Users\\lenovo\\Documents\\GitHub\\react-using-nextjs\\pages\\about.js?entry';
+var _jsxFileName = 'C:\\Users\\lenovo\\Documents\\GitHub\\react-using-nextjs\\components\\MyLayout.js';
 
-exports.default = function () {
-	return _react2.default.createElement('div', {
-		__source: {
+
+var layoutBoundary = {
+	margin: 20,
+	padding: 20,
+	border: '1px solid #DDD'
+};
+
+exports.default = function (props) {
+	return _react2.default.createElement('div', { style: layoutBoundary, __source: {
 			fileName: _jsxFileName,
-			lineNumber: 3
+			lineNumber: 10
 		}
 	}, _react2.default.createElement(_Header2.default, {
 		__source: {
 			fileName: _jsxFileName,
-			lineNumber: 4
+			lineNumber: 11
 		}
-	}), _react2.default.createElement('p', {
-		__source: {
-			fileName: _jsxFileName,
-			lineNumber: 5
-		}
-	}, 'About Page'));
+	}), props.children);
 };

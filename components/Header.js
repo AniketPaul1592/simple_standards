@@ -1,12 +1,16 @@
 import Link from 'next/link'
 
+const headerDiff = {
+	marginRight : 15
+}
+
 export default () => (
 	<div>
 	<Link href="/">
-		<a>Home</a>
+		<a style={headerDiff}>Home</a>
 	</Link>
 	<Link href="/about">
-		<a>About</a>
+		<a style={headerDiff}>About</a>
 	</Link>
 	</div>
 )
